@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="refresh" content="30"/>
+<title>OKX Zeus volexp breakout · paper</title>
+<style>
+  :root { --bg:#0c0d10; --card:#15171c; --line:#2a2e36; --txt:#e8eaed; --mut:#8b909a; --up:#3dd68c; --dn:#ff5d73; --accent:#7ab8ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.45 ui-sans-serif,system-ui,sans-serif; background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px 8px; border-bottom:1px solid var(--line); }
+  header h1 { margin:0; font-size:20px; }
+  header .sub { color:var(--mut); font-size:13px; margin-top:4px; }
+  header a { color:#9bdcff; }
+  .paper { display:inline-block; background:#10243a; color:var(--accent); font-size:11px; padding:2px 8px; border-radius:999px; margin-left:8px; }
+  .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; padding:16px 24px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+  .stat .k { color:var(--mut); font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+  .stat .v { font-size:22px; font-variant-numeric:tabular-nums; margin-top:4px; }
+  .up { color:var(--up); } .down { color:var(--dn); } .muted { color:var(--mut); }
+  .wrap { padding:0 24px 32px; display:grid; gap:18px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.1em; color:var(--mut); margin:8px 0; }
+  table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:10px; }
+  th,td { text-align:left; padding:8px 12px; font-variant-numeric:tabular-nums; }
+  th { font-size:11px; color:var(--mut); text-transform:uppercase; letter-spacing:.06em; border-bottom:1px solid var(--line); }
+  tr+tr td { border-top:1px solid var(--line); }
+  .sym { font-weight:650; }
+  .tape { padding:6px 0; border-bottom:1px solid var(--line); font-variant-numeric:tabular-nums; }
+</style></head><body>
+<header>
+  <h1>OKX Zeus volexp breakout <span class="paper">PAPER · EXPERIMENTAL · freeze 50 sells</span></h1>
+  <div class="sub">Updated 2026-10-09 20:01:19 UTC · 1H closed · squeeze→range break · vol thrust · BTC close &gt; rising 50 EMA · 1 slot · 2×ATR stop · <a href="https://pixel-vector-bell.github.io/okx-paper-lab/">lab</a></div>
+</header>
+<div class="grid">
+  <div class="stat"><div class="k">Equity</div><div class="v">$3,000.00</div></div>
+  <div class="stat"><div class="k">Return</div><div class="v"><span class="up">+0.00%</span></div></div>
+  <div class="stat"><div class="k">Open</div><div class="v">0</div></div>
+  <div class="stat"><div class="k">Closed sells / wins</div><div class="v">0 / 0</div></div>
+</div>
+<div class="wrap">
+  <div>
+    <h2>Open positions · ZEUSVEX</h2>
+    <table><thead><tr><th>Pair</th><th>Entry</th><th>Mark</th><th>uPnL</th><th>MFE</th><th>MAE</th><th>Stop</th></tr></thead>
+    <tbody><tr><td colspan='7' class='muted'>Flat.</td></tr></tbody></table>
+  </div>
+  <div>
+    <h2>Tape (latest 40)</h2>
+    <div class='muted'>No fills yet.</div>
+  </div>
+</div>
+</body></html>
